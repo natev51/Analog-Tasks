@@ -1,10 +1,10 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-03-06 18:05:00" Modified_Date="2025-03-07 10:05:48" Creator="Erik" Comments="" ID="6fca4258c545331329a341790445a5d6">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-03-06 18:05:00" Modified_Date="2025-03-07 10:40:19" Creator="Erik" Comments="" ID="316bf3e958b0029291473fa013c78d38">
   <Library_General_Settings>
     <Package_File_Name>NathanCo_lib_Analog_Tasks</Package_File_Name>
-    <Library_Version>1.0.0.6</Library_Version>
+    <Library_Version>1.0.0.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
-    <Library_Output_Folder>..</Library_Output_Folder>
+    <Library_Output_Folder>.</Library_Output_Folder>
     <Company_Name>NathanCo</Company_Name>
     <Library_Summary/>
     <Library_License>Apache-2.0</Library_License>
@@ -228,7 +228,7 @@
         <Path>Analog Output</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CF32EB03D16033D9FC9EED7132E973A8</GUID>
+      <GUID>A4EEBF694FF681EEF375847F3F69EBE9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -305,7 +305,7 @@
         <Path>Analog Input\Analog Input\Analog Input\Parse Waveform.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>994CAFCC314575ABDDED29562941D9A8</GUID>
+      <GUID>EFA82047C105A1978F90843D9A229C79</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -368,7 +368,7 @@
         <Path>Analog Output\Analog Output\Write.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5F9347C5073FA489E410F3B6D86E7C7D</GUID>
+      <GUID>6D3E82F57842AF7440FB442BDE742BF0</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
