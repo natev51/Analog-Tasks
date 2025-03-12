@@ -12,19 +12,31 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Utilities" Type="Folder">
-			<Item Name="Analog Configuration Parameters.ctl" Type="VI" URL="../Utilities/Analog Configuration Parameters.ctl"/>
-			<Item Name="Analog Parse Configuration Parameters.vi" Type="VI" URL="../Utilities/Analog Parse Configuration Parameters.vi"/>
-		</Item>
-		<Item Name="Analog Input" Type="Folder">
-			<Item Name="Analog Input Interface Messages.lvlib" Type="Library" URL="../Analog Input/Analog Input Interface Messages/Analog Input Interface Messages.lvlib"/>
-			<Item Name="Analog Input.lvlib" Type="Library" URL="../Analog Input/Analog Input/Analog Input.lvlib"/>
-		</Item>
 		<Item Name="Palette" Type="Folder">
 			<Item Name="BD Analog Output.vi" Type="VI" URL="../Palette/BD Analog Output.vi"/>
 			<Item Name="FP Analog Output.vi" Type="VI" URL="../Palette/FP Analog Output.vi"/>
 		</Item>
-		<Item Name="Analog Output.lvlib" Type="Library" URL="../Analog Output/Analog Output.lvlib"/>
+		<Item Name="Utilities" Type="Folder">
+			<Item Name="Analog Configuration Parameters.ctl" Type="VI" URL="../Utilities/Analog Configuration Parameters.ctl"/>
+			<Item Name="Analog Parse Configuration Parameters.vi" Type="VI" URL="../Utilities/Analog Parse Configuration Parameters.vi"/>
+			<Item Name="Search for Waveform.vi" Type="VI" URL="../Utilities/Search for Waveform.vi"/>
+			<Item Name="Parse Waveform.vi" Type="VI" URL="../Utilities/Parse Waveform.vi"/>
+		</Item>
+		<Item Name="Analog Input" Type="Folder">
+			<Item Name="Analog Input Interface Messages" Type="Folder">
+				<Item Name="Analog Input Voltages Msg.lvclass" Type="LVClass" URL="../Analog Input/Analog Input Interface Messages/Analog Input Interface Messages Messages/Analog Input Voltages Msg/Analog Input Voltages Msg.lvclass"/>
+				<Item Name="Analog Input Interface Messages.lvclass" Type="LVClass" URL="../Analog Input/Analog Input Interface Messages/Analog Input Interface Messages/Analog Input Interface Messages.lvclass"/>
+			</Item>
+			<Item Name="Analog Input" Type="Folder">
+				<Item Name="Messages" Type="Folder">
+					<Item Name="Acquire Voltage Msg.lvclass" Type="LVClass" URL="../Analog Input/Analog Input/Analog Input Messages/Acquire Voltage Msg/Acquire Voltage Msg.lvclass"/>
+				</Item>
+				<Item Name="Analog Input.lvclass" Type="LVClass" URL="../Analog Input/Analog Input/Analog Input/Analog Input.lvclass"/>
+			</Item>
+		</Item>
+		<Item Name="Analog Output" Type="Folder">
+			<Item Name="Analog Output.lvclass" Type="LVClass" URL="../Analog Output/Analog Output/Analog Output.lvclass"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
@@ -230,16 +242,6 @@
 				<Item Name="DAQmx Read (Analog 1D DBL 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D DBL 1Chan NSamp).vi"/>
 				<Item Name="DAQmx Read (Analog 1D Wfm NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D Wfm NChan NSamp).vi"/>
 				<Item Name="DAQmx Read.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read.vi"/>
-				<Item Name="DAQmx Read (Power 1D DBL 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D DBL 1Chan NSamp).vi"/>
-				<Item Name="DAQmx Read (Power 2D I16 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 2D I16 NChan NSamp).vi"/>
-				<Item Name="DAQmx Read (Power DBL 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power DBL 1Chan 1Samp).vi"/>
-				<Item Name="DAQmx Read (Power 2D DBL NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 2D DBL NChan NSamp).vi"/>
-				<Item Name="DAQmx Read (Power 1D DBL NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D DBL NChan 1Samp).vi"/>
-				<Item Name="DAQmx Read (Power Wfm 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power Wfm 1Chan 1Samp).vi"/>
-				<Item Name="DAQmx Read (Power Wfm 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power Wfm 1Chan NSamp).vi"/>
-				<Item Name="DAQmx Read (Power 1D Wfm NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D Wfm NChan 1Samp).vi"/>
-				<Item Name="DAQmx Read (Power 1D Wfm NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D Wfm NChan NSamp).vi"/>
-				<Item Name="DAQmx Create Channel (Power).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (Power).vi"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
