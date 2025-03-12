@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-03-06 18:05:00" Modified_Date="2025-03-12 09:26:11" Creator="Erik" Comments="" ID="7f8e0a51c9f8ab6f8288917ba0b14882">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-03-06 18:05:00" Modified_Date="2025-03-12 09:29:50" Creator="Erik" Comments="" ID="c02e7d51acb34e7ac0342c028e7d5e1d">
   <Library_General_Settings>
     <Package_File_Name>NathanCo_lib_Analog_Tasks</Package_File_Name>
-    <Library_Version>1.0.0.15</Library_Version>
+    <Library_Version>1.0.0.16</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\Source</Library_Source_Folder>
     <Library_Output_Folder>..\Package</Library_Output_Folder>
@@ -242,7 +242,7 @@
         <Path>..\Source</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2AB1AFB6C00C61EE0E18F66658F640AA</GUID>
+      <GUID>C71DF7586F7F0DC02EF8DCFDACBE1464</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -291,7 +291,7 @@
         <Path>..\Source\Analog Input\Analog Input\Analog Input\Add Task.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0C9F7FD38C574849D81AD22307561C4D</GUID>
+      <GUID>96804DD8E65DA0A20522E0BFF5673D66</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -368,7 +368,7 @@
         <Path>..\Source\Analog Output\Analog Output\Create.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B2A22A7F5CD8A838DF0AE68F9B43D0BA</GUID>
+      <GUID>7F27B3AF6F1C82CEF0D912602FD5AA9C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -392,15 +392,15 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Parse Waveform.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Parse Analog Waveform.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
-          <Column>3</Column>
+          <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Source\Utilities\Parse Waveform.vi</Path>
+        <Path>..\Source\Utilities\Parse Analog Waveform.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -417,21 +417,7 @@
         <Path>..\Source\Utilities\Search Analog Waveform.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Parse Analog Waveform.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\Source\Utilities\Parse Analog Waveform.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <GUID>B1DEB1B3381DE19D07C31EAEEE1A49D5</GUID>
+      <GUID>343438BB7EA565F9D1FA0BF0FB93D236</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -466,7 +452,7 @@
         <Path>..\Source\Utilities</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3524F90BB07CCCA95F9B2E6757CC91F2</GUID>
+      <GUID>DC69D9B7128CF9E24A1E803EE7643ADA</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -501,7 +487,7 @@
         <Path>..\Source\Palette\FP Analog Output.vi</Path>
         <VI_Title>Analog Output.lvclass</VI_Title>
       </Items_Data>
-      <GUID>D55868D65707FBF816CCA3BABD6CF279</GUID>
+      <GUID>CEA2CE6FB22271485756F0CF8D3F7DF3</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
