@@ -19,8 +19,8 @@
 		<Item Name="Utilities" Type="Folder">
 			<Item Name="Analog Configuration Parameters.ctl" Type="VI" URL="../Utilities/Analog Configuration Parameters.ctl"/>
 			<Item Name="Analog Parse Configuration Parameters.vi" Type="VI" URL="../Utilities/Analog Parse Configuration Parameters.vi"/>
-			<Item Name="Search for Waveform.vi" Type="VI" URL="../Utilities/Search for Waveform.vi"/>
-			<Item Name="Parse Waveform.vi" Type="VI" URL="../Utilities/Parse Waveform.vi"/>
+			<Item Name="Search Analog Waveform.vi" Type="VI" URL="../Utilities/Search Analog Waveform.vi"/>
+			<Item Name="Parse Analog Waveform.vi" Type="VI" URL="../Utilities/Parse Analog Waveform.vi"/>
 		</Item>
 		<Item Name="Analog Input" Type="Folder">
 			<Item Name="Analog Input Interface Messages" Type="Folder">
